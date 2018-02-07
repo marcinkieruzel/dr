@@ -1,0 +1,30 @@
+#blog {
+    color: $navy;
+    .img-full {
+        width: 100%;
+    }
+    h3 {
+        font-size: 3.6rem;
+        font-weight: 300;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+        font-style: italic;
+        font-weight: 300;
+    }
+    .more {
+        font-size: 2.3rem;
+        color: $blue;
+        font-weight: 300;
+        text-decoration: underline;
+        display: block;
+        margin-left: auto;
+        text-align: right;
+    }
+    .spans {
+        @include spans;
+        padding: 20px 0 50px 0;
+    }
+}

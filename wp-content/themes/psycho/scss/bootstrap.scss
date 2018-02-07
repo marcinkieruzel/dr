@@ -1,0 +1,10 @@
+.container-fluid {
+    max-width: 1200px;
+    @media all and (max-width: 1500px) {
+        max-width: 970px; 
+    }
+}
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
